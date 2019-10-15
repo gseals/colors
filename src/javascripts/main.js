@@ -6,6 +6,7 @@ import cardList from './components/cardList/cardList';
 const init = () => {
   // arrayMethods.init();
   cardList.cardListBuilder();
+  cardList.cardListEvents();
 };
 
 init();

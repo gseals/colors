@@ -17,4 +17,9 @@ const cardListBuilder = () => {
   util.printToDom('color-list', domString);
 };
 
-export default { cardListBuilder };
+const cardListEvents = () => {
+  $('.card').on('click', '.card');
+};
+
+
+export default { cardListBuilder, cardListEvents };
